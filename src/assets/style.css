@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #1A1A1A;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #fff;
+}
+.navbar-top{
+    background: linear-gradient(152.97deg, rgba(21, 21, 21, 0.2) 0%, rgba(21, 21, 21, 0) 100%);
+    backdrop-filter: blur(42px);
+    height: 70px;
+    color: #fff;
+    border-bottom: 1px solid rgb(60, 60, 60);
+}
+.navbar-top a{
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    transition: .3s;
+}
+.navbar-top a:hover{
+    text-decoration: underline;
+    /* font-weight: 600; */
+}
+.list-menu-navbar{
+    margin-top: 20px;
+}
+.list-menu-navbar a{
+    margin-right: 30px;
+}
+.landing-hero{
+    padding-top: 60px;
+    height: 100vh;
+}
+.landing-hero .title-landing{
+    background: -webkit-linear-gradient(315deg,#3b8fef 25%,#54ffa9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 100px;
+    text-decoration: underline;
+}
+.landing-hero .desc-landing{
+    color: rgb(206, 206, 206);
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.btn-blue{
+    background: -webkit-linear-gradient(315deg,#006be5 25%,#06aa68);
+    border: none;
+}
+.btn-outline-white{
+    /* background: -webkit-linear-gradient(315deg,#fff 25%,#fff); */
+    border: 1px solid #fff;
+    color: #fff;
+}
+.btn-outline-white:hover{
+    text-decoration: underline;
+    border: 1px solid #fff;
+    color: #fff;
+}
+/* SECTION OUR-FEATURE */
+.our-feature{
+    border-top: 1px solid rgb(60, 60, 60);
+    padding-top: 40px;
+}
+.clients{
+    /* border-top: 1px solid rgb(60, 60, 60); */
+    /* padding-top: 40px; */
+    margin-top: 100px !important;
+}
+.box-feature p{
+    font-weight: 300;
+}
+.box-feature b{
+    font-weight: 500;
+}
+.client-box{
+    background-color: #e6dede;
+    height: 114px;
+    padding-top: 15px;
+    transition: .5s;
+}
+.client-box:hover{
+    border: 5px solid #006be5;
+    /* border-radius: 20px; */
+}
+.footer{
+    border-top: 1px solid rgb(60, 60, 60);
+}
+.banner-footer{
+    background: -webkit-linear-gradient(315deg,#3b8fef 25%,#54ffa9);
+    /* height: 200px; */
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 3px;
+}
+.about{
+    margin-top: 100px;
+}
+.font-green{
+    background: -webkit-linear-gradient(315deg,#3b8fef 25%,#54ffa9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
