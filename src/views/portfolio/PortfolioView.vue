@@ -20,9 +20,9 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
             </div>
           </div>
           <div class="row mt-5 justify-content-center">
-            <div class="col-6 col-sm-4 mt-4">
-              <div class="card" style="width: 18rem">
-                <div style="height: 180px">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-4">
+              <div class="card" style="width: 100%">
+                <div style="min-height: 180px">
                   <img
                     src="/apps/siva-app.png"
                     class="card-img-top"
@@ -49,9 +49,9 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
                 </div>
               </div>
             </div>
-            <div class="col-6 col-sm-4 mt-4">
-              <div class="card" style="width: 18rem">
-                <div style="height: 180px">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-4">
+              <div class="card" style="width: 100%">
+                <div style="min-height: 180px">
                   <img
                     src="/apps/rumahsoal-app.png"
                     class="card-img-top"
@@ -78,9 +78,9 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
                 </div>
               </div>
             </div>
-            <div class="col-6 col-sm-4 mt-4">
-              <div class="card" style="width: 18rem">
-                <div style="height: 180px">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-4">
+              <div class="card" style="width: 100%">
+                <div style="min-height: 180px">
                   <img
                     src="/apps/soalpppk-app.png"
                     class="card-img-top"
@@ -108,9 +108,9 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
               </div>
             </div>
 
-            <div class="col-6 col-sm-4 mt-4">
-              <div class="card" style="width: 18rem">
-                <div style="height: 180px">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-4">
+              <div class="card" style="width: 100%">
+                <div style="min-height: 180px">
                   <img
                     src="/apps/kinarya-app.png"
                     class="card-img-top"
@@ -137,6 +137,23 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
                 </div>
               </div>
             </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 mt-4">
+              <div class="card" style="width: 100%">
+                <div style="min-height: 180px">
+                  <img
+                    src="/apps/cdc.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body" style="height: 250px">
+                  <h5 class="card-title text-dark">CDC</h5>
+                  <p class="card-text text-dark" style="font-weight: 300">
+                    Kami membantu CDC kemenperin dalam membuat sebuah form dengan fleksibel bergantung kepada input yang dimasukkan oleh user.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -149,7 +166,7 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
           <div class="banner-footer">
             Temukan cara baru untuk bekerja sama.
             <div class="mt-3">
-              <a href="" class="btn btn-outline-white">
+              <a href="https://wa.me/6285158513669?text=Halo MavenTama, kami ingin melakukan diskusi" class="btn btn-outline-white">
                 Kontak sales
                 <img
                   src="/icons/arrow_right.svg"

@@ -14,7 +14,7 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
             Memberikan solusi digital untuk menyelesaikan masalah Anda.
           </p>
           <div class="mt-4">
-            <a href="" class="btn btn-primary btn-blue">
+            <a href="https://wa.me/6285158513669?text=Halo MavenTama, kami ingin melakukan diskusi" target="_blank" class="btn btn-primary btn-blue">
               <img src="/images/whatsapp.png" alt="" style="width: 14px" />
               Konsultasi Gratis
             </a>
@@ -99,8 +99,8 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
             </div>
           </div>
           <div class="row mt-5">
-            <div class="col-6 col-sm-4 mt-4 text-center">
-              <a href="">
+            <div class="col-6 col-sm-6 mt-4 text-center">
+              <a href="" class="anchor-client-box">
                 <div class="client-box">
                   <img
                     src="/clients/rumahsoal.png"
@@ -110,29 +110,29 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
                 </div>
               </a>
             </div>
-            <div class="col-6 col-sm-4 mt-4 text-center">
-              <a href="">
+            <div class="col-6 col-sm-6 mt-4 text-center">
+              <a href="" class="anchor-client-box">
                 <div class="client-box">
                   <img src="/clients/soalpppk.png" alt="" style="height: 80%" />
                 </div>
               </a>
             </div>
-            <div class="col-6 col-sm-4 mt-4 text-center">
-              <a href="">
+            <div class="col-6 col-sm-6 mt-4 text-center">
+              <a href="" class="anchor-client-box">
                 <div class="client-box">
                   <img src="/clients/faba.png" alt="" style="height: 80%" />
                 </div>
               </a>
             </div>
-            <div class="col-6 col-sm-4 mt-4 text-center">
-              <a href="">
+            <div class="col-6 col-sm-6 mt-4 text-center">
+              <a href="" class="anchor-client-box">
                 <div class="client-box">
-                  <img src="/clients/siva.png" alt="" style="width:90%" />
+                  <img src="/clients/siva.png" alt="" style="width:60%" />
                 </div>
               </a>
             </div>
-            <div class="col-6 col-sm-4 mt-4 text-center">
-              <a href="">
+            <div class="col-6 col-sm-6 mt-4 text-center">
+              <a href="" class="anchor-client-box">
                 <div class="client-box">
                   <img src="/clients/kinarya.jpeg" alt="" style="height: 80%" />
                 </div>
@@ -144,7 +144,7 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
               <div class="banner-footer">
                 Temukan cara baru untuk bekerja sama.
                 <div class="mt-3">
-                  <a href="" class="btn btn-outline-white">
+                  <a href="https://wa.me/6285158513669?text=Halo MavenTama, kami ingin melakukan diskusi" class="btn btn-outline-white">
                     Kontak sales
                     <img
                       src="/icons/arrow_right.svg"

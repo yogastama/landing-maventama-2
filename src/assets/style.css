@@ -84,6 +84,10 @@ html, body{
     height: 114px;
     padding-top: 15px;
     transition: .5s;
+    width: 100%;
+}
+.anchor-client-box{
+    width: 100%;
 }
 .client-box:hover{
     border: 5px solid #006be5;

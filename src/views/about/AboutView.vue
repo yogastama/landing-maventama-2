@@ -19,10 +19,10 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
               />
             </div>
             <div class="row mt-5">
-              <div class="col-12 col-sm-6 text-center">
+              <div class="col-12 col-sm-12 col-md-12 text-center">
                 <img src="/images/logo.png" alt="logo" style="width: 100%" />
               </div>
-              <div class="col-12 col-sm-6 pt-4">
+              <div class="col-12 col-sm-12 col-md-12 pt-4">
                 <div style="font-weight: 300">
                   Saat ini, solusi digital sangatlah menjadi penting bagi setiap
                   lini kehidupan. Bagi bisnis Anda yang masih memiliki masalah
@@ -71,7 +71,7 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
           <div class="banner-footer">
             Temukan cara baru untuk bekerja sama.
             <div class="mt-3">
-              <a href="" class="btn btn-outline-white">
+              <a href="https://wa.me/6285158513669?text=Halo MavenTama, kami ingin melakukan diskusi" class="btn btn-outline-white">
                 Kontak sales
                 <img
                   src="/icons/arrow_right.svg"
