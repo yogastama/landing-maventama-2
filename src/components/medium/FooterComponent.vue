@@ -11,10 +11,7 @@
                 Seluler.
               </p>
               <div class="mt-3"></div>
-              <a
-                href="https://wa.me/6285158513669?text=Hai maventama, saya mau berdiskusi"
-                class="text-white"
-              >
+              <a href="https://wa.me/6285158513669?text=Hai maventama, saya mau berdiskusi" class="text-white">
                 +6285158513669
               </a>
               <div class="mt-3"></div>
@@ -40,7 +37,7 @@
           </div>
           <div class="row mt-4">
             <div class="col-12 text-center">
-              <p>Copyright © 2022</p>
+              <p>Copyright © 2022 MavenTama</p>
             </div>
           </div>
         </div>

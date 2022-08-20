@@ -19,7 +19,7 @@ import FooterComponent from "@/components/medium/FooterComponent.vue";
               <img src="/images/whatsapp.png" alt="" style="width: 14px" />
               Konsultasi Gratis
             </a>
-            <router-link to="/portfolio" class="btn btn-outline-white ms-4" target="_blank">
+            <router-link to="/portfolio" class="btn btn-outline-white ms-4">
               Lihat portofolio
               <img
                 src="/icons/arrow_right.svg"
