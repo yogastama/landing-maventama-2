@@ -1,5 +1,6 @@
 <script setup>
 import NavbarComponent from "@/components/medium/NavbarComponent.vue";
+import FooterComponent from "@/components/medium/FooterComponent.vue";
 </script>
 <template>
   <NavbarComponent></NavbarComponent>
@@ -181,17 +182,5 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
       </div>
     </div>
   </section>
-  <section class="footer pt-3">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-8">
-          <div class="row">
-            <div class="col-12 text-center">
-              <p>Copyright © 2022</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <FooterComponent></FooterComponent>
 </template>

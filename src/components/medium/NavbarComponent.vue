@@ -6,7 +6,9 @@
           <div class="col-12 col-sm-10">
             <div class="row">
               <div class="col-4 col-sm-4 pt-2">
-                <img src="/images/logo.png" alt="logo" style="width: 200px" />
+                <router-link to="/">
+                  <img src="/images/logo.png" alt="logo" style="width: 200px" />
+                </router-link>
               </div>
               <div class="col-8 col-sm-8">
                 <div class="list-menu-navbar text-end d-block d-md-none">

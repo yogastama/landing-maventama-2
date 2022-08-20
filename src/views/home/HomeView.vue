@@ -1,5 +1,6 @@
 <script setup>
 import NavbarComponent from "@/components/medium/NavbarComponent.vue";
+import FooterComponent from "@/components/medium/FooterComponent.vue";
 </script>
 <template>
   <NavbarComponent></NavbarComponent>
@@ -18,15 +19,15 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
               <img src="/images/whatsapp.png" alt="" style="width: 14px" />
               Konsultasi Gratis
             </a>
-            <a href="" class="btn btn-outline-white ms-4" target="_blank">
-              Lihat layanan
+            <router-link to="/portfolio" class="btn btn-outline-white ms-4" target="_blank">
+              Lihat portofolio
               <img
                 src="/icons/arrow_right.svg"
                 alt=""
                 style="width: 14px"
                 class="ms-2"
               />
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
@@ -161,17 +162,5 @@ import NavbarComponent from "@/components/medium/NavbarComponent.vue";
       </div>
     </div>
   </section>
-  <section class="footer mt-5 pt-3">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-8">
-          <div class="row">
-            <div class="col-12 text-center">
-              <p>Copyright © 2022</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <FooterComponent></FooterComponent>
 </template>
