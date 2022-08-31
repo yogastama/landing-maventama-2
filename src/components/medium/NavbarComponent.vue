@@ -30,12 +30,16 @@
                     <li>
                       <router-link class="dropdown-item text-dark" to="/portfolio">Portofolio</router-link>
                     </li>
+                    <li>
+                      <router-link class="dropdown-item text-dark" to="/yogabagas-menulis">Yoga Bagas Menulis</router-link>
+                    </li>
                   </ul>
                 </div>
                 <div class="list-menu-navbar text-end d-none d-md-block">
                   <router-link to="/"> Beranda </router-link>
                   <router-link to="/about"> Tentang </router-link>
                   <router-link to="/portfolio"> Portofolio </router-link>
+                  <router-link to="/yogabagas-menulis"> Yoga Bagas Menulis </router-link>
                   <a
                     href="https://www.linkedin.com/company/76212922"
                     target="_blank"

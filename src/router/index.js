@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/home/HomeView.vue";
 import AboutView from "../views/about/AboutView.vue";
 import PortfolioView from "../views/portfolio/PortfolioView.vue";
+import YbmView from "../views/ybm/YbmView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -20,6 +21,11 @@ const router = createRouter({
       path: "/portfolio",
       name: "portfolio",
       component: PortfolioView,
+    },
+    {
+      path: "/yogabagas-menulis",
+      name: "ybm",
+      component: YbmView,
     },
   ],
 });
